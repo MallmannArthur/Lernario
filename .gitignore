@@ -1,0 +1,34 @@
+# Node.js
+backend/node_modules/
+frontend/node_modules/
+
+# Angular/Dist
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+nlp-service/venv/
+
+# Logs e temporários
+*.log
+tmp/
+*.tar
+*.gz
+*.zip
+
+# Docker volumes locais
+infra/pgdata/
+infra/redisdata/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
